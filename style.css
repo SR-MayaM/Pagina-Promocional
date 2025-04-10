@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    background: black;
+    color: white;
+    position:sticky;
+    z-index: 3;
+    
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    padding-left: 40vh;
+}
+
+.img-logo{
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+}
+
+.referencias{
+    font-weight: bold;
+    font-size:large;
+    font-family: sans-serif;
+    padding: 20px;
+    padding-right: 20vh;
+    word-spacing: 20px;
+    
+   
+}
+
+.seccion{
+    display: flex;
+}
+
+.info{
+    display: block;
+    margin-top: 30px;
+    padding: 20px;
+    width: 50%;
+
+}
+
+.title{
+    font-family: sans-serif;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    margin-left:1vh;
+    font-weight: 800;
+}
+
+.parrafo{
+    font-family: sans-serif;
+    font-weight: 400;
+    text-align: left;
+    width: 50%;
+    margin: 5px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5vh;
+    padding-left: 4em ;
+    padding-right: 4em;
+    padding: 10px 6vh 10px 6vh;
+    border-radius: 5px;
+   
+
+}
+
+.section-img{
+    height: 80vh;
+    width: 110vh;
+    margin-top: 20px;
+    
+   
+
+}
+
+
+.cards{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px; 
+    padding-bottom: 0;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 2;
+    
+    
+}
+
+.img-card{
+    width: 50px;
+    height: 70px;
+    margin-bottom: 30px;
+}
+
+.titulo-card{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.card-1{
+
+    
+    background-color: beige;
+    width: 50vh;
+    height: 70vh;
+    margin: 5vh;
+    padding: 20px;
+    border-radius:10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    z-index: 2;
+   
+   
+}
+.card-2{
+    
+    background-color: beige;
+    width: 50vh;
+    height: 70vh;
+    padding: 20px;
+    border-radius:10px;
+    margin: 5vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    z-index: 2;
+   
+   
+    
+
+}
+.card-3{
+    
+    background-color: beige;
+    width: 50vh;
+    height: 70vh;
+    padding: 20px;
+    border-radius:10px;
+    margin: 5vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    z-index: 2;
+   
+    
+
+}
+
+
+
+
+.archivements{
+    width: 100%; 
+    height: 110vh;
+    background-color: black;
+    transform: translateY(-130px);
+    
+}
+
+.info-stadisticas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.informacion{
+    color: white;
+    font-size: x-large;
+    align-items: end;
+    text-align: center;
+    padding-top: 9rem;
+    align-items:end;
+    
+}
+
+.estadistica{
+    color: white;
+    transform: translateY(25vh);
+    
+}
+
+.numero{
+    font-size: xx-large;
+    
+}
+
+.info-stats{
+    text-align: center;
+}
+
+.alcance-seccion{
+    margin:0 ;
+}
+
+.div-alcance{
+    display: block;
+    
+    align-content: center;
+    align-content: end;
+    margin: 10px;
+    width: 50vh;
+    height: 350px;
+    
+}
+
+.alcance{
+    margin-left: 5vh;
+
+}
+
+.texto-alcance{
+    margin: 5vh;
+    align-content: center;
+}
+
+.alcance-btn{
+    border: none;
+    color: white;
+    background: #000;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    margin-left: 5vh;
+
+}
+
+.alcance-img{
+
+  margin-left: 110vh;
+  transform: translateY(-60vh);
+  width: 80vh;
+  height: 50vh;
+  
+  
+
+}
+
+
+.lista-beneficios{
+    align-items: end;
+    margin: 16px 0;
+    padding-left: 40px;
+
+
+}
+
+h3{
+    margin: 10px;
+}
+.lorem{
+    margin: 10px;
+}
+
+.contenedor-lista{
+    margin-left: 100vh;
+    transform: translateY(-20vh);
+}
+
+.alcance-img2{
+    transform: translateY(25vh);
+    position: static;
+
+}
+
+p{
+    margin: 20px;
+}
+
+.adquirir{
+    border:none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.adquirir:hover{
+    color: yellow;
+    background-color: yellowgreen;
+    transition: 0.2s;
+}
+
+.section4{
+    color: white;
+    background-color:black;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+footer{
+    
+    background-color: grey;
+    text-align: center;
+    
+}
+
+
+.contacto{
+    animation: animacion 3s infinite forwards; 
+   
+
+}
+
+@keyframes animacion{
+    50%{
+        color: blueviolet;
+    }
+    75%{
+        color: blue;
+
+    }
+    100%{
+        color: blueviolet;
+
+    }
+}
+
+
+
+
+
+
+
+
+
